@@ -2,7 +2,7 @@
     "disabled":false,
     "bindings":[
         {
-            "schedule": "0 0 9 ? * FRI *",
+            "schedule": "0 0 9 * * 5",
             "runOnStartup": true,
             "name": "myTimer",
             "type": "timerTrigger",
