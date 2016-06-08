@@ -1,3 +1,5 @@
+#load "..\Shared\SendEmail.csx"
+
 #r "System"
 #r "System.Configuration"
 #r "Newtonsoft.Json"
@@ -9,7 +11,7 @@ using System.Net.Mail;
 using System.Text;
 using Newtonsoft.Json;
 
-#load "..\Shared\SendEmail.csx"
+
 
 const string timeCockpitBaseUrl = "https://api.timecockpit.com";
 const string MessageBody = @"<!DOCTYPE html>

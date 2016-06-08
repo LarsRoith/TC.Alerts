@@ -1,3 +1,7 @@
+using System;
+using System.Configuration;
+using System.Net.Mail;
+
 public static void SendMailAsync(string subject, string body, TraceWriter log)
 {
     MailMessage msg = new MailMessage();
